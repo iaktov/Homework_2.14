@@ -1,4 +1,4 @@
-package Interface;
+package org.example;
 
 import java.util.List;
 
