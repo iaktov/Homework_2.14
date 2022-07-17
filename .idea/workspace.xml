@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a8e0710-4ce7-4139-9db7-a4bcf26e65f9" name="Changes" comment="homework_2.14">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/StringList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/StringListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/src/test/java/StringListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/IntegerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/IntegerListImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface/StringList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/src/main/java/org/example/StringListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/StringListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/src/test/java/StringListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/src/test/java/StringListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="homework_branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "liberica-11",
-    "last_opened_file_path": "C:/Users/пп/IdeaProjects/course.work",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/пп/IdeaProjects/course.work&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.StringListTest">
+}</component>
+  <component name="RunManager" selected="Application.org.example.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Homework_2.14" />
@@ -116,9 +111,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.Main" />
         <item itemvalue="JUnit.StringListTest" />
         <item itemvalue="JUnit.StringListTest.addTest (1)" />
-        <item itemvalue="Application.org.example.Main" />
         <item itemvalue="JUnit.StringListTest.addTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -134,7 +129,8 @@
       <updated>1657889135579</updated>
       <workItem from="1657889137141" duration="5979000" />
       <workItem from="1657896143777" duration="5279000" />
-      <workItem from="1658033954868" duration="6329000" />
+      <workItem from="1658033954868" duration="10976000" />
+      <workItem from="1658066737398" duration="8312000" />
     </task>
     <task id="LOCAL-00001" summary="homework_2.14">
       <created>1657899865006</created>
@@ -143,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657899865006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homework_2.14">
+      <created>1658049107899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658049107899</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

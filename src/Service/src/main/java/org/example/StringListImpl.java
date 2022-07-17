@@ -6,9 +6,9 @@ public class StringListImpl implements StringList {
     private final String[] ourList;
     private int capacity;
 
-//    public StringListImpl(String item) {
-//        this.ourList = new String[10];
-//    }
+    public StringListImpl(String item) {
+        this.ourList = new String[10];
+    }
 
     public StringListImpl(int capacity) {
         this.ourList = new String[capacity];
