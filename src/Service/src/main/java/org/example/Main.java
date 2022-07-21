@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
@@ -8,12 +9,24 @@ public class Main {
     public static void main(String[] args) {
 
 
-        double timeForBubbleSort = timeForBubbleSort(5);
-        System.out.println("время сортировки пузырьком - " + timeForBubbleSort + "м/с");
-        double timeForSelectionSort = timeForSelectionSort(5);
-        System.out.println("время сортировки выбором - " + timeForSelectionSort + "м/с");
-        double timeForInsertionSort = timeForInsertionSort(5);
-        System.out.println("время сортировки вставкой - " + timeForInsertionSort + "м/с");
+//        double timeForBubbleSort = timeForBubbleSort(5);
+//        System.out.println("время сортировки пузырьком - " + timeForBubbleSort + "м/с");
+//        double timeForSelectionSort = timeForSelectionSort(5);
+//        System.out.println("время сортировки выбором - " + timeForSelectionSort + "м/с");
+//        double timeForInsertionSort = timeForInsertionSort(5);
+//        System.out.println("время сортировки вставкой - " + timeForInsertionSort + "м/с");
+
+        IntegerList testList = new IntegerListImpl(5);
+        testList.add(2);
+        testList.add(1);
+        testList.add(8);
+        testList.add(0);
+        testList.add(91);
+        testList.add(26);
+//        testList.add(26);
+        System.out.println(Arrays.toString(testList.toArray()));
+        System.out.println(testList.contains(0));
+        System.out.println(Arrays.toString(testList.toArray()));
 
 
     }

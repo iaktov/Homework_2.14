@@ -2,31 +2,35 @@ package org.example;
 
 import java.util.Arrays;
 
-public class IntegerListImpl implements IntegerList{
+public class IntegerListImpl implements IntegerList {
 
-    private final Integer[] integerList;
+    private Integer[] integerList;
     private int capacity;
 
     public IntegerListImpl(int capacity) {
         this.integerList = new Integer[capacity];
     }
+
     public IntegerListImpl(Integer item) {
         this.integerList = new Integer[10];
     }
 
 
+    //Добавление элемента в массив по значению
     @Override
     public Integer add(Integer item) {
-        this.validateSize();
+//        this.validateSize();
+        grow(this.integerList);
         this.validateData(item);
         this.integerList[this.capacity++] = item;
         return item;
     }
 
+    //Добавление элемента в массив по индексу и значению
     @Override
     public Integer add(int index, Integer item) {
         this.validateData(item);
-        this.validateSize();
+        grow(this.integerList);
         this.validateIndex(index);
         if (index == this.capacity) {
             this.integerList[this.capacity++] = item;
@@ -39,6 +43,7 @@ public class IntegerListImpl implements IntegerList{
         }
     }
 
+    // присваивание нового значению элемента по индексу
     @Override
     public Integer set(int index, Integer item) {
         this.validateData(item);
@@ -47,6 +52,7 @@ public class IntegerListImpl implements IntegerList{
         return item;
     }
 
+    //Удаление элемента из массива
     @Override
     public Integer remove(Integer item) {
         this.validateData(item);
@@ -63,6 +69,7 @@ public class IntegerListImpl implements IntegerList{
         }
     }
 
+    //Удаление элемента по индексу
     @Override
     public Integer remove(int index) {
         this.validateIndex(index);
@@ -77,10 +84,10 @@ public class IntegerListImpl implements IntegerList{
     }
 
 
-    //бинарный поиск
+    //проверка на наличие значения в массиве
     @Override
     public boolean contains(Integer item) {
-        sortInsertion();
+        sortInsertion(1,capacity-1);
         int min = 0;
         int max = integerList.length - 1;
 
@@ -101,8 +108,8 @@ public class IntegerListImpl implements IntegerList{
     }
 
     @Override
-    public int indexOf(Integer item){
-        for(int i = 0; i < this.capacity; ++i) {
+    public int indexOf(Integer item) {
+        for (int i = 0; i < this.capacity; ++i) {
             if (this.integerList[i].equals(item)) {
                 return i;
             }
@@ -113,7 +120,7 @@ public class IntegerListImpl implements IntegerList{
 
     @Override
     public int lastIndexOf(Integer item) {
-        for(int i = this.capacity - 1; i >= 0; --i) {
+        for (int i = this.capacity - 1; i >= 0; --i) {
             if (this.integerList[i].equals(item)) {
                 return i;
             }
@@ -122,68 +129,85 @@ public class IntegerListImpl implements IntegerList{
         return -1;
     }
 
+    //передать значение по индексу
     @Override
     public Integer get(int index) {
         this.validateIndex(index);
         return this.integerList[index];
     }
 
+    //проверка на идентичность значений в нашем и другом массиве
     @Override
     public boolean equals(StringList otherList) {
         return Arrays.equals(this.toArray(), otherList.toArray());
     }
 
+    //проверка на присутствие элементов в массиве
     @Override
     public boolean isEmpty() {
         return this.capacity == 0;
     }
 
+    // Очитска массива
     @Override
     public void clear() {
         this.capacity = 0;
     }
+
 
     @Override
     public Integer[] toArray() {
         return Arrays.copyOf(this.integerList, this.capacity);
     }
 
+    // показывает размер списка
     @Override
     public int size() {
         return this.capacity;
     }
 
-
+    //проверка, что клиент ввел данные
     private void validateData(Integer item) {
         if (item == null) {
             throw new RuntimeException("Данные не были введены, попробуйте снова");
         }
     }
 
-    private void validateSize() {
-        if (this.capacity == this.integerList.length) {
-            throw new RuntimeException("Массивы заполнен, нельзя добавить новые элементы");
-        }
-    }
 
+    //проверка, что клиент ввел корректный индекс
     private void validateIndex(int index) {
         if (index < 0 || index > this.capacity) {
             throw new RuntimeException("введен некорректный индекс, введите, повторно");
         }
     }
 
-    private  void sortInsertion() {
-        for (int i = 1; i < capacity; i++) {
-            int temp = integerList[i];
-            int j = i;
-            while (j > 0 && integerList[j - 1] >= temp) {
-                integerList[j] = integerList[j - 1];
-                j--;
-            }
-            integerList[j] = temp;
+    //Сортировка вставкой рекусривная
+    private void sortInsertion(int i, int n) {
+
+        int temp = integerList[i];
+        int j = i;
+
+        while (j > 0 && integerList[j - 1] > temp)
+        {
+            integerList[j] = integerList[j - 1];
+            j--;
+        }
+
+        integerList[j] = temp;
+
+        if (i + 1 <= n) {
+            sortInsertion( i + 1, n);
         }
     }
 
-
+    //увеличение массива в 1,5 раза
+    private void grow(Integer[] arr) {
+        if (this.capacity == this.integerList.length) {
+            Integer[] arr2 = new Integer[(int) (arr.length * 1.5)];
+            System.arraycopy(arr, 0, arr2, 0, arr.length);
+            this.integerList = arr2;
+            System.out.println("Массив был увеличен");
+        }
+    }
 
 }
