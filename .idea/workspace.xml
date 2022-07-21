@@ -1,21 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a8e0710-4ce7-4139-9db7-a4bcf26e65f9" name="Changes" comment="" />
+    <list default="true" id="5a8e0710-4ce7-4139-9db7-a4bcf26e65f9" name="Changes" comment="homework_2.15">
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/src/main/java/com/example/Homework_24/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework_2.14/src/test/java/com/example/Homework_24/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/src/test/java/IntegerListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/target/classes/org/example/IntegerList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/target/classes/org/example/IntegerListImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/target/classes/org/example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/target/classes/org/example/StringList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/target/classes/org/example/StringListImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/target/test-classes/StringListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/src/main/java/org/example/IntegerListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/IntegerListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Homework_2.15" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2ByrOWkrhfMKSJKF27wBXL8h5pS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;liberica-11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/пп/IdeaProjects/Homework_2.14&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="JUnit.IntegerListTest">
+    <configuration name="IntegerListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegerListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerListTest.addOverFlowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegerListTest" />
+      <option name="METHOD_NAME" value="addOverFlowTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerListTest.indexOfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegerListTest" />
+      <option name="METHOD_NAME" value="indexOfTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerListTest.lastIndexOfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegerListTest" />
+      <option name="METHOD_NAME" value="lastIndexOfTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegerListTest.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntegerListTest" />
+      <option name="METHOD_NAME" value="sizeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntegerListTest" />
+        <item itemvalue="JUnit.IntegerListTest.lastIndexOfTest" />
+        <item itemvalue="JUnit.IntegerListTest.indexOfTest" />
+        <item itemvalue="JUnit.IntegerListTest.sizeTest" />
+        <item itemvalue="JUnit.IntegerListTest.addOverFlowTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -24,8 +140,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657889135579</updated>
+      <workItem from="1657889137141" duration="5979000" />
+      <workItem from="1657896143777" duration="5279000" />
+      <workItem from="1658033954868" duration="10976000" />
+      <workItem from="1658066737398" duration="8399000" />
+      <workItem from="1658209735199" duration="26000" />
+      <workItem from="1658328032286" duration="400000" />
+      <workItem from="1658397977265" duration="5517000" />
+      <workItem from="1658405445803" duration="4354000" />
     </task>
+    <task id="LOCAL-00001" summary="homework_2.14">
+      <created>1657899865006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657899865006</updated>
+    </task>
+    <task id="LOCAL-00002" summary="homework_2.14">
+      <created>1658049107899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658049107899</updated>
+    </task>
+    <task id="LOCAL-00003" summary="homework_2.15">
+      <created>1658075986724</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658075986724</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -37,5 +186,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="homework_2.14" />
+    <MESSAGE value="homework_2.15" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework_2.15" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Homework_2_14$StringListTest.ic" NAME="StringListTest Coverage Results" MODIFIED="1658048291798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Homework_2_14$IntegerListTest.ic" NAME="IntegerListTest Coverage Results" MODIFIED="1658411296110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
